@@ -1,7 +1,6 @@
 const prompt = require('prompt-sync')();
 
 const nombre = parseInt(prompt("Donnez le nombre des elements : "));
-
 const tableau = [];
 let x = 0;
 for (let i = 0; i < nombre; i++) {
